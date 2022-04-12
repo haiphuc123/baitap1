@@ -37,12 +37,12 @@ const Sample = ()=>{
 <Image style={{marginRight:50,
             marginTop: 50,}} 
             source={require('../sample/assets/images/logo2.png')} />
-<Text style={{ fontSize: 20, color: "blue", fontFamily: "bold",justifyContent:"center", alignItems:"center",marginBottom:30 }}>Login to Labbit</Text>
+<Text style={{ fontSize: 20, color: "#304D95", fontFamily: "bold",justifyContent:"center", alignItems:"center",marginBottom:30, fontWeight:"bold" }}>Login to Labbit</Text>
 
         </View>
 <View>
 
-<View style={{flexDirection:'row',marginBottom:20, alignItems:"center",marginLeft:30,backgroundColor:"white", marginRight:30,borderRadius:40}}>
+<View style={{flexDirection:'row',marginBottom:20, alignItems:"center",marginLeft:30,backgroundColor:"white", marginRight:30,borderRadius:40,borderColor:"#304D95", borderWidth:1}}>
 <Image style={{marginLeft:10}} source={require('../sample/assets/images/icon-L.png')} />
       <TextInput
      
